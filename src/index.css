@@ -1,0 +1,42 @@
+/* In Firefox hold shift and refresh to display CSS changes!!! */
+
+#startNewProblemButton,
+#checkButton {
+    height: 60;
+    width: 205px;
+    color: white;
+    font-size: 150%;
+}
+
+#signup {
+    margin-left: 10px;
+}
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    #problemText {
+        color: #036daa;
+        font-size: 4vw;
+    }
+    #problemAnswer {
+        color: #036daa;
+        font-size: 1vw;
+    }
+}
+
+/* If the screen size is 600px wide or less*/
+@media screen and (max-width: 600px) {
+    #problemText {
+        color: #036daa;
+        font-size: 11vw;
+    }
+    #problemAnswer {
+        color: #036daa;
+        font-size: 4vw;
+    }
+}
+
+#form-error-alert {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
